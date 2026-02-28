@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+target/
+.anchor/
+.DS_Store
+
+# Test ledger
+test-ledger/
+
+# IDL files
+target/idl/
+target/types/
+
+# Build files
+dist/
+*.so
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
